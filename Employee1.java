@@ -1,29 +1,42 @@
-public class employee 
-{
-                            int id;
+public class Employee1 {
+    int id;
     double salary=0.0;
 
-    public employee(int Id) {
-        this.Id = id;
+    public Employee1(int id) {
+        this.id = id;
     }
 
-    public employee() {
-                            }
+    public Employee1() {
+    }
 
     double calTax(){
-           if(this.Salary > 500000.00 && this.salary < 1000000)
-                 return this.salary*0.1;
+        
+        if(this.salary > 500000.00 && this.salary < 1000000)
+            return this.salary*0.1;
 
-                         elseif(this.salary >                         1000000.00 && this.Salary < 1500000)
-                                    return this.Salary*0.2;
+        else if(this.salary >1000000.00 && this.salary < 1500000)
+            return this.salary*0.2;
 
         else
-                            return this.Salary*0.3;
-        
-        for(int i=0;i<10;i++){
-            
-        }
+            return this.salary*0.3;
 
+
+        double calTax(){
+            
+            if(this.salary > 500000.00 && this.salary < 1000000)
+                return this.salary*0.1;
+
+            else if(this.salary >1000000.00 && this.salary < 1500000)
+                return this.salary*0.2;
+
+            else
+                return this.salary*0.3;
+
+            for(int i=0;i<10;i++){
+
+            }
+
+        }
     }
 
 }
